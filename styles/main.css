@@ -1,0 +1,444 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVIGATIONNNNN */
+
+
+#nav_container {
+    width: fit-content;
+    padding: 12px 24px;
+    background: #F7F4FF;
+    margin-left: auto;
+}
+
+#nav_logo {
+    vertical-align: middle;
+}
+
+#list {
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    margin-left: 277px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#button_container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 277px;
+    color: #8E26C0;
+}
+
+.button {
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    color: #8E26C0;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #F7F4FF;
+}
+
+
+
+#color_a {
+    color: #8E26C0;
+}
+
+#color_about {
+    color: #323;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#separator {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #323232;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#separators {
+    padding-left: 20px;
+    color: #323232;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Inter;
+}
+
+#contact_color {
+    color: #8E26C0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+
+
+
+/* MAIIIINNNNNNNN */
+
+
+
+
+#main_container {
+    width: 1311px;
+    margin: 0 auto;
+}
+
+
+#main_main {
+    margin-top: 142px;
+}
+
+#offer_container {
+    max-width: 644px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+#offer_h {
+
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+#offer_koko {
+    margin: 0 auto;
+    margin-left: 45px;
+}
+
+#lorem {
+    color: #535862;
+    font-family: Prata;
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 16px;
+    width: 100%;
+}
+
+
+.listo {
+    color: #000;
+    font-size: 24px;
+    font-family: "Fira Sans";
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 75px;
+    padding-top: 12px;
+}
+
+#listor {
+    margin-top: 16px;
+}
+
+#pilot {
+    vertical-align: middle;
+}
+
+
+/* CONTACT US  */
+
+#contact_container {
+    width: 1299px;
+    margin: 0 auto;
+    margin-top: 83px;
+    vertical-align: middle;
+
+}
+
+#center_h {
+    vertical-align: middle;
+    color: #000;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    width: 1299px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#center_p {
+    display: block;
+    font-size: 20px;
+    max-width: 905px;
+    width: 100%;
+    font-family: Prata;
+    font-weight: 400;
+    color: #535862;
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-bottom: 28px;
+
+}
+
+
+#send_container {
+    border-radius: 16px;
+    background: #f7f4ff;
+    padding: 32px;
+    display: block;
+
+
+}
+
+#left {
+    display: inline-block;
+}
+
+
+.address_box {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img_gg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.first {
+    padding-bottom: 24px;
+}
+
+#left {
+    max-width: 412px;
+    height: 474px;
+    width: 100%;
+    border-radius: 16px;
+    background: #fff;
+    padding: 20px;
+}
+
+.small_p {
+    margin-left: 16px;
+    padding-bottom: 6px;
+    max-width: 291px;
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.smaller_p {
+    margin-left: 16px;
+    color: #6D5f8b;
+    font-family: prata;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 291px;
+    width: 100%;
+
+}
+
+
+#right {
+    display: inline-block;
+    margin-left: 24px;
+    vertical-align: middle;
+}
+
+
+#sender {
+    display: inline-block;
+    margin-bottom: 16px;
+    max-width: 730px;
+    width: 100%;
+    color: #1b003d;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 44px;
+    text-transform: uppercase;
+    font-family: "Noto Sans Georgian";
+}
+
+
+#name_container {
+    max-width: 730px;
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+#first_div {
+    max-width: 730px;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.names {
+    display: block;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    color: #6D5F8B;
+    font-family: "Noto Sans Georgian";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    width: 730px;
+    width: 100%;
+    padding: 8px 16px;
+
+}
+
+.styleboy {
+    width: 730px;
+    width: 100%;
+
+
+}
+
+
+#widther {
+    width: 730px;
+
+}
+
+.fuller {
+    color: #1B003D;
+
+}
+
+textarea {
+    height: 146px;
+
+}
+
+#third_div {
+    margin-top: 24px;
+}
+
+#button_rights {
+    margin-top: 24px;
+    text-align: right;
+    padding: 12px 24px;
+}
+
+#senda {
+    width: 140px;
+    height: 48px;
+    border-radius: 8px;
+    background: #8e26c0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter;
+    margin-left: 590px;
+    margin-top: 24px;
+}
+
+textarea {
+    resize: none;
+}
+
+#second_div {
+    margin-top: 24px;
+}
+
+#main_footer {
+    background-color: #53389E;
+    margin-top: 163px;
+    padding-top: 64px;
+    padding-bottom: 48px;
+}
+
+
+#footer_container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1280px;
+}
+
+.listed a {
+    display: block;
+    text-decoration: none;
+    margin-top: 12px;
+
+
+}
+
+.listed {
+    display: inline-block;
+    width: 200px;
+}
+
+#up {
+    display: inline-block;
+}
+
+.colorful {
+    width: 176px;
+    color: #D6BBFB;
+
+}
+
+.over {
+    color: #e9d7fe;
+    font-family: Inter;
+    font-weight: 600;
+
+}
+
+#logo {
+    vertical-align: middle;
+    padding-top: 32px;
+}
+
+#copyright {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 1077px;
+    width: 100%;
+}
+
+#pierre {
+    text-align: right;
+    padding-top: 32px;
+    color: #D6BBFB;
+}
+
+#down {
+    margin-top: 64px;
+    border-top: 2px groove grey;
+}
+
+#new {
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.10);
+    padding: 2px 6px;
+}
+
+#helper {
+    display: inline-block;
+}
